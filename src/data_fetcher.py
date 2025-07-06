@@ -22,7 +22,7 @@ def fetch_all_ohlcv(tickers, config):
                 interval="1d",
                 progress=False,
                 threads=False,
-                auto_adjust=True,
+                auto_adjust=False,
             )
 
             if df.empty:
@@ -41,7 +41,7 @@ def fetch_all_ohlcv(tickers, config):
         return pd.DataFrame()
 
     combined = pd.concat(all_data, axis=0).reset_index(drop=True)
-    return combined[["Market", "Ticker", "Date", "Open", "High", "Low", "Close", "Volume"]]
+    return combined[["Market", "Ticker", "Date", "Open", "High", "Low", "Close", "Volume", "Adj Close"]]
 
 def save_ohlcv_to_file(df, config):
     if df.empty:

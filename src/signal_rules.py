@@ -33,8 +33,8 @@ def apply_all_rules(df: pd.DataFrame) -> dict:
 
     result = {
         "ma_50": ma_50_rule(df).iloc[-1],
-        "breakout_20": breakout_20_rule(df).iloc[-1],
-        "volume_spike_20": volume_spike_20_rule(df).iloc[-1],
+        # "breakout_20": breakout_20_rule(df).iloc[-1],
+        # "volume_spike_20": volume_spike_20_rule(df).iloc[-1],
     }
 
     # Full AND match
