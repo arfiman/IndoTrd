@@ -11,7 +11,7 @@ A modular, maintainable system to generate daily EOD trading signals for Indones
   - `signals_analysis_YYYYMMDD.csv`: stocks that meet **any** rule (research-worthy)
 
 ## 🗂️ Project Structure
-
+```
 indo_trader/
 ├── config/
 │ └── config.yaml # Signal parameters (MA window, etc.)
@@ -31,7 +31,7 @@ indo_trader/
 │ └── utils.py # Helpers (date, I/O, etc.)
 ├── run.py # CLI entrypoint
 └── requirements.txt # Python dependencies
-
+```
 ---
 
 ## 📈 Signal Rules
