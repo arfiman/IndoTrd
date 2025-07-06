@@ -7,22 +7,7 @@ import pandas as pd
 import yfinance as yf
 from tqdm import tqdm
 from datetime import datetime
-import yaml
-
-def load_config():
-    with open("config/config.yaml", "r") as f:
-        config = yaml.safe_load(f)
-
-    # If in test mode, merge with test overrides
-    if config.get("mode") == "test":
-        with open("config/config_test.yaml", "r") as f:
-            test_overrides = yaml.safe_load(f)
-        config.update(test_overrides)
-    return config
-
-def load_tickers(path="data/tickers.json"):
-    with open(path, "r") as f:
-        return json.load(f)
+from src.utils import load_config, load_tickers
 
 def fetch_all_ohlcv(tickers, config):
     period = f"{config.get('ohlcv_days', 100)}d"

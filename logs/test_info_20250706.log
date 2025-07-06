@@ -4,3 +4,107 @@
 2025-07-06 19:51:02,329 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
 2025-07-06 20:01:11,137 - INFO - Loaded 31 tickers.
 2025-07-06 20:01:16,720 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:25:40,649 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:25:40,649 - INFO - Loaded 31 tickers.
+2025-07-06 20:25:45,534 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:25:45,573 - INFO - Raw OHLCV data saved.
+2025-07-06 20:25:45,573 - ERROR - OHLCV file not found: data/raw_ohlcv/test_idx-ohlcv-eod-20250706.csv
+2025-07-06 20:25:45,573 - INFO - Signal generation completed.
+2025-07-06 20:37:22,654 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:37:22,655 - INFO - Loaded 31 tickers.
+2025-07-06 20:37:28,404 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:37:28,404 - INFO - Raw OHLCV data saved.
+2025-07-06 20:37:28,405 - ERROR - OHLCV file not found in data/raw_ohlcv/ for market test_idx
+2025-07-06 20:37:28,405 - INFO - Signal generation completed.
+2025-07-06 20:47:49,646 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:47:49,646 - INFO - Loaded 31 tickers.
+2025-07-06 20:47:55,290 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:47:55,291 - INFO - Raw OHLCV data saved.
+2025-07-06 20:47:55,291 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:47:55,292 - INFO - Signal generation completed.
+2025-07-06 20:49:27,978 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:49:27,979 - INFO - Loaded 31 tickers.
+2025-07-06 20:49:36,073 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:49:36,073 - INFO - Raw OHLCV data saved.
+2025-07-06 20:49:36,074 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:49:36,074 - INFO - Signal generation completed.
+2025-07-06 20:50:58,564 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:50:58,565 - INFO - Loaded 31 tickers.
+2025-07-06 20:51:04,553 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:51:04,553 - INFO - Raw OHLCV data saved.
+2025-07-06 20:51:04,554 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:51:04,554 - INFO - Signal generation completed.
+2025-07-06 20:52:32,609 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:52:32,610 - INFO - Loaded 31 tickers.
+2025-07-06 20:52:39,043 - ERROR - 
+1 Failed download:
+2025-07-06 20:52:39,043 - ERROR - ['TKIM.JK']: RequestException('Failed to perform, curl: (23) Failure writing output to destination, passed 13 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2025-07-06 20:52:39,046 - ERROR - Failed to fetch TKIM.JK: No data returned
+2025-07-06 20:52:40,219 - ERROR - 
+1 Failed download:
+2025-07-06 20:52:40,220 - ERROR - ['ITMG.JK']: RequestException('Failed to perform, curl: (23) Failure writing output to destination, passed 13 returned 0. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.')
+2025-07-06 20:52:40,221 - ERROR - Failed to fetch ITMG.JK: No data returned
+2025-07-06 20:52:40,556 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:52:40,557 - INFO - Raw OHLCV data saved.
+2025-07-06 20:52:40,557 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:52:40,558 - INFO - Signal generation completed.
+2025-07-06 20:52:53,502 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:52:53,502 - INFO - Loaded 31 tickers.
+2025-07-06 20:53:00,470 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:53:00,470 - INFO - Raw OHLCV data saved.
+2025-07-06 20:53:00,471 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:53:00,471 - INFO - Signal generation completed.
+2025-07-06 20:55:41,749 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:55:41,749 - INFO - Loaded 31 tickers.
+2025-07-06 20:55:46,694 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:55:46,694 - INFO - Raw OHLCV data saved.
+2025-07-06 20:55:46,695 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:55:46,696 - INFO - Signal generation completed.
+2025-07-06 20:56:23,415 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:56:23,415 - INFO - Loaded 31 tickers.
+2025-07-06 20:56:28,423 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:56:28,423 - INFO - Raw OHLCV data saved.
+2025-07-06 20:56:28,424 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:56:28,424 - INFO - Signal generation completed.
+2025-07-06 20:59:31,503 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 20:59:31,504 - INFO - Loaded 31 tickers.
+2025-07-06 20:59:37,335 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:59:37,336 - INFO - Raw OHLCV data saved.
+2025-07-06 20:59:37,336 - ERROR - OHLCV file not found in None for market test_idx
+2025-07-06 20:59:37,337 - INFO - Signal generation completed.
+2025-07-06 21:01:00,312 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:01:00,312 - INFO - Loaded 31 tickers.
+2025-07-06 21:01:05,193 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:01:05,193 - INFO - Raw OHLCV data saved.
+2025-07-06 21:01:05,297 - INFO - No tickers passed all signal filters.
+2025-07-06 21:01:05,297 - INFO - Signal generation completed.
+2025-07-06 21:05:47,465 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:05:47,465 - INFO - Loaded 31 tickers.
+2025-07-06 21:05:52,420 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:05:52,420 - INFO - Raw OHLCV data saved.
+2025-07-06 21:05:52,463 - INFO - No tickers passed all signal filters.
+2025-07-06 21:05:52,463 - INFO - Signal generation completed.
+2025-07-06 21:06:18,337 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:06:18,337 - INFO - Loaded 31 tickers.
+2025-07-06 21:06:23,296 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:06:23,297 - INFO - Raw OHLCV data saved.
+2025-07-06 21:06:23,338 - INFO - Generated signals CSV: output_test/signals_20250704.csv
+2025-07-06 21:06:23,338 - INFO - Signal generation completed.
+2025-07-06 21:08:36,868 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:08:36,869 - INFO - Loaded 31 tickers.
+2025-07-06 21:08:43,187 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:08:43,187 - INFO - Raw OHLCV data saved.
+2025-07-06 21:08:43,237 - INFO - No tickers passed all signal filters.
+2025-07-06 21:09:10,527 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:09:10,528 - INFO - Loaded 31 tickers.
+2025-07-06 21:09:16,286 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:09:16,286 - INFO - Raw OHLCV data saved.
+2025-07-06 21:09:16,337 - INFO - No tickers passed all signal filters.
+2025-07-06 21:09:16,337 - INFO - Empty signal file written to output_test/signals_20250704.csv
+2025-07-06 21:09:16,338 - INFO - Signal generation completed.
+2025-07-06 21:09:55,207 - INFO - Starting IndoTrader signal ingestion process...
+2025-07-06 21:09:55,208 - INFO - Loaded 31 tickers.
+2025-07-06 21:10:00,485 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 21:10:00,485 - INFO - Raw OHLCV data saved.
+2025-07-06 21:10:00,526 - INFO - Generated signals CSV: output_test/signals_20250704.csv
+2025-07-06 21:10:00,526 - INFO - Signal generation completed.
