@@ -1,0 +1,6 @@
+2025-07-06 12:24:35,327 - INFO - Loaded 31 tickers.
+2025-07-06 12:24:40,787 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 19:50:57,023 - INFO - Loaded 31 tickers.
+2025-07-06 19:51:02,329 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv
+2025-07-06 20:01:11,137 - INFO - Loaded 31 tickers.
+2025-07-06 20:01:16,720 - INFO - Saved OHLCV to data/raw_ohlcv/test_idx-ohlcv-eod-20250704.csv

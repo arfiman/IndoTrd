@@ -1,0 +1,14 @@
+# Global mode: "prod" or "test"
+mode: test
+
+# Output control
+output_dir: output/
+ohlcv_dir: data/raw_ohlcv/
+log_dir: logs/
+
+# Ticker & fetch
+ma_window: 50
+breakout_window: 20
+volume_window: 20
+ohlcv_days: 100
+market_code: idx

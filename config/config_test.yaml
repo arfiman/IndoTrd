@@ -1,0 +1,6 @@
+mode: test
+output_dir: output_test/
+ohlcv_dir: data/raw_ohlcv/
+log_dir: logs/
+ohlcv_days: 100
+market_code: test_idx
