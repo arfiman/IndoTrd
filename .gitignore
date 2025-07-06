@@ -43,8 +43,8 @@ data/raw_ohlcv/
 # ====================
 # Configuration
 # ====================
-config_test.yaml
-config_dev.yaml
+# config_test.yaml
+# config_dev.yaml
 .env
 *.bak
 
